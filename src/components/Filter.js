@@ -3,7 +3,6 @@ import '../App.css';
 import Header from './Header';
 
 function FilterPage( { array } ) {
-  console.log(array.filter(el => el.family === "wild"))
   return (
     <div>
       <header className="App-header">

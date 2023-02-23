@@ -28,6 +28,15 @@ function Header({array}) {
                 padding: "5px" }}>
             <span className="">.filter</span>
         </Link>
+        <Link to="/reduce" 
+            style={{ 
+                textDecoration: "none", 
+                color: "white", 
+                margin: "13px", 
+                border: "solid 2px lightblue", 
+                padding: "5px" }}>
+            <span className="">.reduce</span>
+        </Link>
     </div>
     )
 }

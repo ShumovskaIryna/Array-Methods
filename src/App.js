@@ -2,6 +2,7 @@ import './App.css';
 import Home from './components/Home'
 import Map from './components/Map'
 import Filter from './components/Filter'
+import Reduce from './components/Reduce'
 import {
   BrowserRouter as Router,
   Routes,
@@ -36,6 +37,8 @@ function App() {
             <Map array={animals}/>} />
             <Route path="/filter" element={
             <Filter array={animals}/>} />
+            <Route path="/reduce" element={
+            <Reduce array={animals}/>} />
           </Routes>
         </Router>
       </header>
