@@ -3,6 +3,7 @@ import Home from './components/Home'
 import Map from './components/Map'
 import Filter from './components/Filter'
 import Reduce from './components/Reduce'
+import FindIndex from './components/FindIndex'
 import {
   BrowserRouter as Router,
   Routes,
@@ -39,6 +40,8 @@ function App() {
             <Filter array={animals}/>} />
             <Route path="/reduce" element={
             <Reduce array={animals}/>} />
+            <Route path="/find-index" element={
+            <FindIndex array={animals}/>} />
           </Routes>
         </Router>
       </header>

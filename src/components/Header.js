@@ -37,6 +37,15 @@ function Header({array}) {
                 padding: "5px" }}>
             <span className="">.reduce</span>
         </Link>
+        <Link to="/find-index" 
+            style={{ 
+                textDecoration: "none", 
+                color: "white", 
+                margin: "13px", 
+                border: "solid 2px lightblue", 
+                padding: "5px" }}>
+            <span className="">.findIndex</span>
+        </Link>
     </div>
     )
 }
